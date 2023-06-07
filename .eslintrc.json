@@ -10,7 +10,6 @@
         "plugin:@typescript-eslint/recommended",
         "airbnb-base",
         "plugin:editorconfig/noconflict",
-        "plugin:mocha/recommended",
         "airbnb-typescript/base"
     ],
     "parser": "@typescript-eslint/parser",
@@ -22,8 +21,7 @@
     "plugins": [
         "@typescript-eslint",
         "sonarjs",
-        "editorconfig",
-        "mocha"
+        "editorconfig"
     ],
     "rules": {
         "no-underscore-dangle": "off",
