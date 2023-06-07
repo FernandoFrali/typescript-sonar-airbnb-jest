@@ -5,8 +5,9 @@
   "main": "index.js",
   "scripts": {
     "test": "jest",
+    "start": "ts-node src/index.ts",
     "start:dev": "nodemon",
-    "start": "npm run build && node build/index.js",
+    "build": "npx -y tsc",
     "lint": "eslint . --ext .js,.jsx,.ts,.tsx"
   },
   "keywords": [],
